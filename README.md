@@ -1,13 +1,13 @@
 # IoT3-micropython
 
-steps to sync a new local machine :
+steps to sync a new local machine from existing repo on github :
 1) install git from https://git-scm.com
 2) make directory for repository
 3) change into directory
 4) git init
 5) git pull https://github.com/effevee/IoT3-micropython 
 
-steps to upload changes to github :
+steps to upload changes from local machine to repo on github :
 1) make your changes
 2) git status
 3) git add (filename) or git add .
@@ -15,3 +15,6 @@ steps to upload changes to github :
 5) git commit -m "(commit message)"
 6) git push https://github.com/effevee/IoT3-micropython master
 
+steps to download changes from repo on github to local machine :
+1) change into directory for repository
+2) git pull https://github.com/effevee/IoT3-micropython
