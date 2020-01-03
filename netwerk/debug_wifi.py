@@ -1,7 +1,7 @@
 import network
 
-SSID = 'DS9'
-PWD = 'TrustN01TrustN01'
+SSID = '<SSID>'
+PWD = '<PWD>'
 
 net = network.WLAN(network.STA_IF)
 net.active(True)

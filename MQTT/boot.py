@@ -5,7 +5,7 @@ def connect():
   if not sta_if.isconnected():
     print('connecting to network...')
     sta_if.active(True)
-    sta_if.connect('DS9', 'TrustN01TrustN01')
+    sta_if.connect('<SSID>', '<PWD>')
     #sta_if.connect('lokhetcvo', 'Hetcvo.be')
     while not sta_if.isconnected():
       pass
