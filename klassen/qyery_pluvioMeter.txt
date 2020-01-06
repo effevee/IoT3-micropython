@@ -1,0 +1,5 @@
+35031042  P06_040  Zingem_P
+34999042  P05_019  Waregem_P
+
+http://download.waterinfo.be/tsmdownload/KiWIS/KiWIS?service=kisters&type=queryServices&request=getTimeseriesValueLayer&datasource=1&format=html&timeseriesgroup_id=192896&metadata=true&custattr_returnfields=dataprovider,dataowner&orderDir=asc&orderBy=value&invalidValue=-2&invalidPeriod=P1D&md_returnfields=custom_attributes,station_id,station_no,station_name,ts_id,ts_name,stationparameter_name,ts_unitsymbol,parametertype_name
+http://download.waterinfo.be/tsmdownload/KiWIS/KiWIS?service=kisters&type=queryServices&request=getTimeseriesValues&datasource=1&format=json&ts_id=35031042,34999042&metadata=true&period=P12h
