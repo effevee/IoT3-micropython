@@ -48,7 +48,7 @@ class localTime:
             if self.debug:
                 print(rtc.datetime())
             # locale tijd met correctie offset als tuple
-            lt = utime.localtime(utime.mktime(utime.localtime()) + self.__offset*3600)
+            lt = utime.localtime(utime.mktime(utime.localtime()) + self.offset*3600)
             if self.debug:
                 print(lt)
             # locale tijd omzetten naar string
