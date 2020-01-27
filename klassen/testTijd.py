@@ -1,6 +1,6 @@
 from tijd import localTime
 
-lt = localTime(+1, False)
+lt = localTime(+1, True)
 
 res = lt.startInternetTime()
 
