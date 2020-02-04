@@ -9,10 +9,10 @@ LATCH = 5
 # teststring
 TEXT = "           ... LINSKE, GELUKKIG NIEUWJAAR EN VEEL FIETSGENOT GEWENST VANWEGE JE ALLERLIEFSTE COLLEGA ...           "
 #TEXT = "ABCDEFGHIJKL"
-SCROLLDELAY = 100 # ms
+SCROLLDELAY = 200 # ms
 
 # instantiate HPDL1414 displays
-dp = HPDL1414display.HPDL1414_s(DATA, CLOCK, LATCH, 3, debug=False)
+dp = HPDL1414display.HPDL1414_s(DATA, CLOCK, LATCH, 5, debug=False)
 
 dp.start()
 
