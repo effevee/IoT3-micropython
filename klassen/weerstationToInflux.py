@@ -20,7 +20,7 @@ sens.append(hum1)
 temp1 = tempDHT11(23, 'DHT11 temperature', False)
 sens.append(temp1)
 
-temp2 = tempNTC3950(36, 10000, 100000, 'NTC 3950-100K', False)
+temp2 = tempNTC3950(36, 100000, 100000, 'NTC 3950-100K', False)
 sens.append(temp2)
 
 pluvio1 = pluvioWebWaterInfo(url, "waterinfo.be neerslag laatste 24 uur", False)
