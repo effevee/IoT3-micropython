@@ -26,6 +26,23 @@ class influxdbPutData:
                 print(E)
             return False
     
+    def makeDataStringNodeFieldValue(self, node, tagVal, fieldVal, timeStamp=0):
+        try:
+            tagVal=tagVal.replace(" ","_")
+            self.naam = node.replace(" ","_")
+            if len(self.data)>0:
+                self.data+="\n"
+            self.data += self.naam + "," + self.tag+"="+str(tagVal)+" "+self.field+"="+str(fieldVal)
+            if timeStamp != 0:
+                self.data += " " + str(timeStamp)
+            if self.debug:
+                print(self.data)
+            return True
+        except Exception as E:
+            if self.debug == True:
+                print(E)
+            return False
+
     def writeToInfluxdb(self):
         
         try:
